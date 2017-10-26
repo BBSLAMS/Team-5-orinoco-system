@@ -1,0 +1,10 @@
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.exe.config
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.exe
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.pdb
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.Form1.resources
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.Properties.Resources.resources
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.csproj.GenerateResource.Cache
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.exe
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.pdb
+C:\Users\ericc\Documents\Visual Studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.confirm.resources
+C:\Users\ericc\Documents\Visual Studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.csprojResolveAssemblyReference.cache
