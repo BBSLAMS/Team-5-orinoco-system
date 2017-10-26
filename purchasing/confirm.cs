@@ -24,8 +24,7 @@ namespace purchasing
 
         public void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Form1 frm1 = new Form1();
-            checkedListBox1.Items.Add(frm1.listBoxItems);
+            
         }
 
         

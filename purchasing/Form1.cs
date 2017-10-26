@@ -48,7 +48,7 @@ namespace purchasing
              frm2.Show();
              this.Hide();*/
             confirm frm2 = new confirm();
-            frm2.checkedListBox1.Items.Add(listBoxItems.Text);
+            frm2.checkedListBox1.Items.AddRange(listBoxItems.Items);
 
 
             frm2.Show();
