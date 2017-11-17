@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace purchasing
 {
@@ -20,6 +21,8 @@ namespace purchasing
         private void buttonAddItem_Click(object sender, EventArgs e)
         {
             listBoxItems.Items.Add(comboBoxItems.SelectedItem);
+            listBoxItems.Items.Add(nudNoOfOrders.Value);
+           
         }
 
         private void buttonRemove_Click(object sender, EventArgs e)
@@ -42,21 +45,23 @@ namespace purchasing
 
         private void buttonConfirm_Click(object sender, EventArgs e)
         {
-            /* string departmentName = "IT";
-             confirm frm2 = new confirm();
-            frm2.checkedListBox1.Items = listBoxItems.Items;
-             frm2.Show();
-             this.Hide();*/
             confirm frm2 = new confirm();
             frm2.checkedListBox1.Items.AddRange(listBoxItems.Items);
-
-
             frm2.Show();
+            TextWriter txt = new StreamWriter("C:\\Users\\ericc\\Documents\\Github\\test.txt");
+            txt.Write(listBoxItems.Items);
+            txt.Close();
         }
 
         private void listBoxItems_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void nudNoOfOrders_ValueChanged(object sender, EventArgs e)
+        {
+            nudNoOfOrders.Minimum = 0;
+            nudNoOfOrders.ThousandsSeparator = true;
         }
     }
 }

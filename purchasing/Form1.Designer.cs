@@ -41,6 +41,8 @@
             this.buttonRequestNewItem = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.buttonConfirm = new System.Windows.Forms.Button();
+            this.nudNoOfOrders = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.nudNoOfOrders)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBoxItems
@@ -60,6 +62,7 @@
             this.listBoxItems.FormattingEnabled = true;
             this.listBoxItems.ItemHeight = 16;
             this.listBoxItems.Location = new System.Drawing.Point(162, 99);
+            this.listBoxItems.MultiColumn = true;
             this.listBoxItems.Name = "listBoxItems";
             this.listBoxItems.Size = new System.Drawing.Size(120, 84);
             this.listBoxItems.TabIndex = 1;
@@ -67,7 +70,7 @@
             // 
             // buttonAddItem
             // 
-            this.buttonAddItem.Location = new System.Drawing.Point(288, 70);
+            this.buttonAddItem.Location = new System.Drawing.Point(414, 72);
             this.buttonAddItem.Name = "buttonAddItem";
             this.buttonAddItem.Size = new System.Drawing.Size(75, 23);
             this.buttonAddItem.TabIndex = 2;
@@ -77,7 +80,7 @@
             // 
             // buttonRemove
             // 
-            this.buttonRemove.Location = new System.Drawing.Point(288, 99);
+            this.buttonRemove.Location = new System.Drawing.Point(414, 102);
             this.buttonRemove.Name = "buttonRemove";
             this.buttonRemove.Size = new System.Drawing.Size(75, 23);
             this.buttonRemove.TabIndex = 3;
@@ -161,7 +164,7 @@
             // 
             // buttonConfirm
             // 
-            this.buttonConfirm.Location = new System.Drawing.Point(288, 128);
+            this.buttonConfirm.Location = new System.Drawing.Point(414, 131);
             this.buttonConfirm.Name = "buttonConfirm";
             this.buttonConfirm.Size = new System.Drawing.Size(75, 23);
             this.buttonConfirm.TabIndex = 12;
@@ -169,11 +172,20 @@
             this.buttonConfirm.UseVisualStyleBackColor = true;
             this.buttonConfirm.Click += new System.EventHandler(this.buttonConfirm_Click);
             // 
+            // nudNoOfOrders
+            // 
+            this.nudNoOfOrders.Location = new System.Drawing.Point(288, 70);
+            this.nudNoOfOrders.Name = "nudNoOfOrders";
+            this.nudNoOfOrders.Size = new System.Drawing.Size(120, 22);
+            this.nudNoOfOrders.TabIndex = 13;
+            this.nudNoOfOrders.ValueChanged += new System.EventHandler(this.nudNoOfOrders_ValueChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(584, 397);
+            this.Controls.Add(this.nudNoOfOrders);
             this.Controls.Add(this.buttonConfirm);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.buttonRequestNewItem);
@@ -190,6 +202,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.nudNoOfOrders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +223,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button buttonConfirm;
         public System.Windows.Forms.ListBox listBoxItems;
+        private System.Windows.Forms.NumericUpDown nudNoOfOrders;
     }
 }
 

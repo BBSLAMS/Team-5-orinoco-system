@@ -27,6 +27,9 @@ namespace purchasing
             
         }
 
-        
+        private void buttonConfirm_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("selected items confirmed");
+        }
     }
 }
