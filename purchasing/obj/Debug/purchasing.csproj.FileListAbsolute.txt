@@ -1,0 +1,20 @@
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.exe.config
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.exe
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\bin\Debug\purchasing.pdb
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.Form1.resources
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.Properties.Resources.resources
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.csproj.GenerateResource.Cache
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.exe
+c:\users\ericc\documents\visual studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.pdb
+C:\Users\ericc\Documents\Visual Studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.confirm.resources
+C:\Users\ericc\Documents\Visual Studio 2015\Projects\purchasing\purchasing\obj\Debug\purchasing.csprojResolveAssemblyReference.cache
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\bin\Debug\purchasing.exe.config
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.exe
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.pdb
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\bin\Debug\purchasing.exe
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\bin\Debug\purchasing.pdb
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.csprojResolveAssemblyReference.cache
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.confirm.resources
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.Form1.resources
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.Properties.Resources.resources
+C:\Users\ericc\Documents\Github\Team-5-orinoco-system\purchasing\obj\Debug\purchasing.csproj.GenerateResource.Cache
